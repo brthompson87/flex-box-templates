@@ -3,6 +3,7 @@
     box-sizing: border-box;
     
 }
+
 /* Setup color scheme */
 :root {
     --color-lightest:   #E4F1F6;
@@ -12,7 +13,6 @@
     --color-darkest:    #092834;
 }
 
-*/
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
@@ -39,6 +39,7 @@ body {
     overflow: hidden;
     background-color: var(--color-darkest);
 }
+
 /* Style the links in the navbar */
 .navbar a {
     float: left;
@@ -48,15 +49,18 @@ body {
     padding: .9em 1.1em;
     text-decoration: none;
 }
+
 /* Float the navbar div link with the class .right to the right */
 .navbar a.right {
     float: right;
 }
+
 /* Navbar link hover events */
 .navbar a:hover {
     background-color: var(--color-lightest);
     color: var(--color-darkest)
 }
+
 /* Column container */
 .row {
     display: flex;
@@ -92,4 +96,3 @@ body {
         width: 100%;
     }
 }
-
